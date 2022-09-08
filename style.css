@@ -1,0 +1,302 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f2f0;
+    margin: 0;
+    padding: 0;
+
+}
+.list hr{
+    color: #141414;
+    width: 340px;
+    height: 0px;
+    border: 1px solid black;
+    position: relative;
+    left: -25px;
+}
+.vl{
+    height: 10px;
+    border: 2px solid black;
+
+}
+img[src="lady.jpg"]{
+    height: 700px;
+
+}
+.list{
+    
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    float: right;
+    margin-right: 50px;
+    margin-top: 35px;
+}
+.list-item-active{
+    list-style-type: none;
+    font-size: 13px;
+
+}
+.list-item{
+    list-style-type: none;
+    
+    padding-left: 55px;
+    font-size: 12px;
+    /* font-weight:600; */
+    color: #959494;
+}
+.list-item:hover{
+    color: #333333;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.hero{
+    float: right;
+    position: relative;
+    bottom: 700px;
+    margin-right: 350px;
+}
+img[src="logo.PNG"]{
+    position: absolute;
+    left: 23px;
+    height: 39px;
+    top: 56px;
+
+
+}
+.hero-heading {
+    /* border: 2px solid ; */
+    color: #333333;
+    font-size: 115px;
+    font-family: 'Roboto Slab', serif;
+}
+.hero-heading span{
+    /* border: 2px solid; */
+    color: black;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
+}
+.ingrediant{
+    /* border: 2px solid; */
+    position: absolute;
+    top: 267px;
+    left: 482px;
+    font-size: 25px;
+    color: #828282;
+    font-weight: 500;
+    font-family: 'Noto Serif HK', serif;
+
+}
+.hero-button{
+    /* border: 2px solid; */
+    float: right;
+    position: absolute;
+    right: -283px;
+    bottom: 12px;
+    padding: 14px 40px 14px 40px;
+    background-color: #333333;
+    color: white;
+}
+.hero-button:hover{
+    background-color: #fff;
+    color: #141414;
+    border: 1px solid #141414;
+}
+
+.socials{
+    /* border: 2px solid; */
+    display: inline-flex;
+    flex-direction: column;
+    position: absolute;
+    float: right;
+    right: -310px;
+    bottom: 170px;
+}
+.socials img{
+    height: 14px;
+    padding: 20px;
+}
+img[src="dance.jpg"]{
+    height: 272px;
+    margin-right: 35px;
+    position: relative;
+    right: -271px;
+
+}
+.service-right{
+    float:right;
+}
+.services{
+    /* border: 2px solid; */
+    display: flex;
+    position: relative;
+    bottom: 713px;
+    left: 20px;
+    float: right;
+
+}
+li.service{
+    padding: 20px;
+    font-weight: 500;
+    color: #939392;
+    
+}
+li.service{
+    color: #333333;
+}
+
+li.service-active{
+    padding: 20px;
+    font-weight: 500;
+
+}
+.service-right p{
+    /* border: 2px solid; */
+    margin-right: 63px;
+    position: relative;
+    right: 78px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #141414;
+}
+.service-list{
+    margin-right: -80px;
+    margin-top: 50px;
+
+}
+li.service:hover{
+    color: #333333;
+    font-weight: 600;
+    cursor: pointer;
+}
+li.service-active:hover{
+    color: #333333;
+    font-weight: 600;
+    cursor: pointer;
+}
+.socials img:hover{
+    cursor: pointer;
+    height: 25px;
+}
+.lin{
+    height: 263px;
+    border: -1.5px solid;
+    width: 0px;
+    position: relative;
+    left: 294px;
+    top: -182px;
+
+}
+.bar{
+    display: none;
+}
+
+@media screen and (max-width:800px) {
+    .bar{
+        display: block;
+        float: right;
+        position: relative;
+        top: 67px;
+        right: 49px;
+    }
+    img[src="lady.jpg"] {
+        height: 300px;
+        display: none;
+    }
+    img[src="dance.jpg"] {
+        height: 177px;
+        margin-right: 0;
+        position: relative;
+        right: -42px;
+        top: 250px;
+    }
+    .service-right p {
+        /* border: 2px solid; */
+        margin-right: 182px;
+        position: relative;
+        right: 0;
+        font-weight: 500;
+        font-size: 16px;
+        color: #141414;
+        top: 254px;
+    }
+    .hero {
+        float: right;
+        position: relative;
+        bottom: 0px;
+        margin-right: 350px;
+    }
+    .list{
+        display: none;
+    }
+    .service-right p {
+        /* border: 2px solid; */
+        margin-right: 63px;
+    position: relative;
+    right: -48px;
+    font-weight: 500;
+    font-size: 11px;
+    color: #141414;
+    width: 261px;
+    }
+    .hero-heading {
+        /* border: 2px solid; */
+        color: #333333;
+        font-size: 115px;
+        font-family: 'Roboto Slab', serif;
+        margin-right: -343px;
+        margin-top: 107px;
+    }
+    .ingrediant {
+        /* border: 2px solid; */
+        position: absolute;
+        top: 389px;
+        left: 319px;
+        font-size: 25px;
+        color: #828282;
+        font-weight: 500;
+        font-family: 'Noto Serif HK', serif;
+    }
+    .hero-button {
+        /* border: 2px solid; */
+        float: right;
+        position: absolute;
+        right: -225px;
+        bottom: -67px;
+        padding: 13px 14px 14px 14px;
+        background-color: #333333;
+        color: white;
+    }
+    .service-right{
+        margin-top: 548px;
+    }
+    .service-list {
+       
+    margin-right: -31px;
+    position: relative;
+    top: 812px;
+    width: 186px;
+    }
+    .lin {
+        height: 258px;
+        border: -1.5px solid;
+        width: 0px;
+        position: relative;
+        left: 13px;
+        top: 646px;
+    }
+    .socials {
+        /* border: 2px solid; */
+        display: inline-flex;
+        flex-direction: column;
+        position: absolute;
+        float: right;
+        right: -329px;
+        bottom: 170px;
+    }
+
+
+    
+}
