@@ -1,20 +1,21 @@
-# Project No. 14
+# Project No. 14 (Creativity Page)
 
-This is my 14th project of Web Development. The project is designed in such a way that it works on large(Desktop & Laptop) as well as small screens(Mobile Devices). I have targeting and styling specific elements in CSS.
+This is my _**14th project**_ of Web Development. The project is designed in such a way that it works on large(Desktop & Laptop) as well as small screens(Mobile Devices). In this project, I have learnt **targeting and styling specific elements in CSS**.
+> [Check out live project here](https://project-14-by-noman.vercel.app/)
 
 FULL WEBPAGE:
-![Project2](sc/full.png "proj2 image")
+![Project14](sc/full.png "proj14 image")
 
 NAVBAR:
-![Project2](sc/nav.PNG "proj2 image")
+![Project14](sc/nav.PNG "proj14image")
 
 BODY:
-![Project2](sc/body.PNG )
+![Project14](sc/body.PNG )
 
 ## Technologies Used
 
-![Mascot](https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg "mascot logo")
-![Mascot](https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg "mascot logo")
+![html](https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg "html logo")
+![html](https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg "html logo")
 
 
 ## What I leaned
